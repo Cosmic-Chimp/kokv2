@@ -9,12 +9,11 @@ import {
 
 const About = () => {
   return (
-    <>
+    <div>
       <HeaderTwo>HeaderBoi</HeaderTwo>
       {/* perhaps try creating above element as separate component */}
       <ContainerDiv>
         <AboutText>
-          {/* <WrapperLeft> */}
           <h3>Hiya!</h3>
           {/* change h3 above to a component */}
           <AboutPar>
@@ -23,11 +22,10 @@ const About = () => {
             est dolores assumenda vel explicabo ex repellendus nam tenetur ea
             suscipit.
           </AboutPar>
-          {/* </WrapperLeft> */}
         </AboutText>
         <AboutPic></AboutPic>
       </ContainerDiv>
-    </>
+    </div>
   );
 };
 

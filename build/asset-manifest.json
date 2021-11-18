@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6867df7a.chunk.css",
+    "main.js": "/static/js/main.e2cd346b.chunk.js",
+    "main.js.map": "/static/js/main.e2cd346b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c0d8be9a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c0d8be9a.js.map",
+    "static/js/2.e5d09933.chunk.js": "/static/js/2.e5d09933.chunk.js",
+    "static/js/2.e5d09933.chunk.js.map": "/static/js/2.e5d09933.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.09d68e4c6ba57f2ccea1504ade249488.js": "/precache-manifest.09d68e4c6ba57f2ccea1504ade249488.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6867df7a.chunk.css.map": "/static/css/main.6867df7a.chunk.css.map",
+    "static/js/2.e5d09933.chunk.js.LICENSE.txt": "/static/js/2.e5d09933.chunk.js.LICENSE.txt",
+    "static/media/KoK.svg": "/static/media/KoK.689932cf.svg",
+    "static/media/biopic.png": "/static/media/biopic.533e0e57.png",
+    "static/media/weddingC.png": "/static/media/weddingC.cd56a1c0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0d8be9a.js",
+    "static/js/2.e5d09933.chunk.js",
+    "static/css/main.6867df7a.chunk.css",
+    "static/js/main.e2cd346b.chunk.js"
+  ]
+}

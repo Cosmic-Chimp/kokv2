@@ -22,26 +22,18 @@ export const AboutText = styled.div`
   height: 100%;
 `;
 
-// export const AboutPic = styled.img`
-//   flex: 1;
-//   width: auto;
-//   height: auto;
-//   background-color: green;
-// -- removed bc styling wack
+// export const WrapperLeft = styled.div`
+//   padding: 50px;
+//   height: fit-content;
+//   display: flex;
+//   flex-direction: column;
+//   @media all and (max-width: 480px) {
+//     padding: 10px;
+//     align-items: center;
+//     text-align: center;
+//     justify-content: center;
+//   }
 // `;
-
-export const WrapperLeft = styled.div`
-  padding: 50px;
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  @media all and (max-width: 480px) {
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-`;
 export const AboutPic = styled.img.attrs({
   src: `${bio}`,
 })`
@@ -63,6 +55,9 @@ export const AboutPar = styled.p`
 export const HeaderTwo = styled.h2`
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 3em;
+  margin: 50px;
+  border: 5px solid black;
+  padding: 60px;
 `;
+
+// try making a heading container and then use the - auto margin on that

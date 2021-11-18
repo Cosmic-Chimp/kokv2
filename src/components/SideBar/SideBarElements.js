@@ -12,7 +12,7 @@ export const SideBarContainer = styled.aside`
   align-items: center;
   top: 0;
   left: 0;
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 `;
@@ -41,11 +41,9 @@ export const SidebarLink = styled(LinkS)`
   font-size: 1.5rem;
   text-decoration: none;
   list-style: none;
-
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-
   &:hover {
     color: #01bf71;
     transition: 0.2s ease-in-out;
@@ -57,7 +55,8 @@ export const SidebarMenu = styled.ul`
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
   text-align: center;
-
+  /* margin: 5rem; */
+  /* row-gap: 5rem; */
   @media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
   }
