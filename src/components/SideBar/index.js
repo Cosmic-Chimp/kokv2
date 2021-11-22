@@ -12,7 +12,7 @@ const SideBar = ({ toggle, isOpen }) => {
   return (
     <SideBarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
-        <CloseIcon />1
+        <CloseIcon />
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>

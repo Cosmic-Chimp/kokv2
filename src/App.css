@@ -34,9 +34,15 @@ h2 {
   scale: 1.05;
 }
 
-/* .aboutHeader {
+/* remember to remove this styling and replace it with a component within abtv2styled file  */
+.contain {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 8rem;
-} */
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.items {
+  /* flex: 1; */
+  margin: 5px;
+}

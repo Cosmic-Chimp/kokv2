@@ -17,23 +17,10 @@ export const AboutText = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* flex: 1; */
   width: fit-content;
   height: 100%;
 `;
 
-// export const WrapperLeft = styled.div`
-//   padding: 50px;
-//   height: fit-content;
-//   display: flex;
-//   flex-direction: column;
-//   @media all and (max-width: 480px) {
-//     padding: 10px;
-//     align-items: center;
-//     text-align: center;
-//     justify-content: center;
-//   }
-// `;
 export const AboutPic = styled.img.attrs({
   src: `${bio}`,
 })`
@@ -42,7 +29,6 @@ export const AboutPic = styled.img.attrs({
   /* box-shadow: 0px 50px 50px 60px; */
   border-radius: 50%;
   margin: 2.5rem;
-  /* flex: 0.5; */
 `;
 
 export const AboutPar = styled.p`
