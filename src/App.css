@@ -25,3 +25,7 @@ h2 {
   color: #363737;
   scale: 1.05;
 }
+
+.activeStyle {
+  background-color: aqua;
+}

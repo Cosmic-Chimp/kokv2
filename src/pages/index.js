@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
-import SideBar from "../components/SideBar";
+import Navbar from "../components/Navbar/Navbar";
+import SideBar from "../components/SideBar/SideBar";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
