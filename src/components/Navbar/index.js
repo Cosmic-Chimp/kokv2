@@ -9,15 +9,15 @@ const Navbar = ({ toggle }) => {
         <Bars onClick={toggle} />
         <NavMenu>
           <NavLink to="/home" activeStyle>
-            Home /
+            Home
           </NavLink>
           <NavLink to="/about" activeStyle>
-            About /
+            About
           </NavLink>
           <NavLink to="/recipes" activeStyle>
-            Recipes /
+            Recipes
           </NavLink>
-          <NavLink to="/contact" activeStyle>
+          <NavLink classname="exclude" to="/contact" activeStyle>
             Contact
           </NavLink>
         </NavMenu>

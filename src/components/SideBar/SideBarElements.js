@@ -58,7 +58,7 @@ export const SidebarMenu = styled.ul`
   text-align: center;
   /* margin: 5rem; */
   /* row-gap: 5rem; */
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 667px) {
     grid-template-rows: repeat(6, 60px);
   }
 `;

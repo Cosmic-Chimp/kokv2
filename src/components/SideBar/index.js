@@ -7,7 +7,7 @@ import {
   SidebarLink,
   SidebarMenu,
 } from "./SideBarElements";
-
+// import Home from "../../pages/index";
 const SideBar = ({ toggle, isOpen }) => {
   return (
     <SideBarContainer isOpen={isOpen} onClick={toggle}>
@@ -16,6 +16,9 @@ const SideBar = ({ toggle, isOpen }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
+          <SidebarLink to="/" onClick={toggle}>
+            Home
+          </SidebarLink>
           <SidebarLink to="/about" onClick={toggle}>
             About
           </SidebarLink>

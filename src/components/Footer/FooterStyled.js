@@ -3,10 +3,11 @@ import styled from "styled-components";
 //  ask Chris/Matt about how to change the img relative
 // to what my mom post via admin pannel
 import { FaInstagramSquare, FaFacebookF } from "react-icons/fa";
+import { NavLink as Link } from "react-router-dom";
 
 export const BgContainer = styled.div`
   width: auto;
-  height: 50vh;
+  height: fit-content;
   background-color: #e87da3;
   display: flex;
   padding: 5%;
@@ -22,12 +23,41 @@ export const IconDiv = styled.div`
 `;
 export const IgIcon = styled(FaInstagramSquare)`
   padding: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   cursor: pointer;
+  color: #f6e9ee;
 `;
 export const FbIcon = styled(FaFacebookF)`
   padding: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 2rem;
   cursor: pointer;
+  color: #f6e9ee;
 `;
 // export const MailIcon = styled(AiOutlineMail)``;
+
+export const LinkDiv = styled.div`
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+export const FooterLink = styled(Link)`
+  color: #363737;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 0.25rem;
+  height: 100%;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-size: 1.3rem;
+
+  &.active {
+    color: #e87da3;
+  }
+`;
+export const Li = styled.a`
+  padding: 8px;
+  margin: 3.5rem 0px;
+`;

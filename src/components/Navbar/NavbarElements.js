@@ -31,12 +31,27 @@ export const NavLink = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 0.25rem;
+  /* padding: 0 0.25rem; */
   height: 100%;
   cursor: pointer;
   font-family: "Roboto";
   font-size: 1.3rem;
-
+  /* border-top: 2px solid black;
+  border-bottom: 2px solid black; */
+  padding: 0px 5px;
+  &:before {
+    content: "";
+    background: #363737;
+    margin: 20px;
+    height: 1em;
+    width: 2px;
+    &:active {
+      background: #e87da3;
+    }
+  }
+  &:hover {
+    text-decoration: underline black 5%;
+  }
   &.active {
     color: #e87da3;
   }

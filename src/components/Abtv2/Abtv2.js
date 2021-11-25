@@ -5,6 +5,8 @@ import {
   RightImgDiv,
   LeftWrapper,
   AbtPar,
+  IgIcon,
+  FbIcon,
 } from "./Abtv2Styled";
 
 const AbtV2 = () => {
@@ -36,11 +38,13 @@ const AbtV2 = () => {
 
         {/* insert icons to socials here */}
         <h4>Give me a follow!</h4>
-        <div className="contain">
+        <IgIcon />
+        <FbIcon />
+        {/* <div className="contain">
           <div className="items">Fb</div>
           <div className="items">IG</div>
           <div className="items">Twitter</div>
-        </div>
+        </div> */}
       </AbtPar>
     </>
   );

@@ -9,14 +9,6 @@ h2 {
   font-family: "Montserrat";
   color: #363737;
 }
-/* 
-.introImg {
-  object-fit: contain;
-  height: 100%;
-  width: 100%;
-  box-shadow: 50px#363737;
-  /* border-radius: 5rem; */
-/* } */
 
 .subButton {
   height: 3.5rem;
@@ -32,17 +24,4 @@ h2 {
   background-color: #f6e9ee;
   color: #363737;
   scale: 1.05;
-}
-
-/* remember to remove this styling and replace it with a component within abtv2styled file  */
-.contain {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
-}
-
-.items {
-  /* flex: 1; */
-  margin: 5px;
 }
