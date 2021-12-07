@@ -16,6 +16,7 @@ export const BgContainer = styled.div`
 
 export const FooterH1 = styled.h1`
   margin: 0 auto;
+  color: white;
 `;
 export const IconDiv = styled.div`
   display: flex;

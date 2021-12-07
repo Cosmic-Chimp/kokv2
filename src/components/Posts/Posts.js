@@ -1,14 +1,17 @@
 import React from "react";
 import {
+  CmoreCont,
   PinkBg,
   Postcontainer,
-  RecipeCard,
   RecipeH1,
-  RecipeTitle,
+  SeeMore,
+  FaArrow,
 } from "./PostsStyled";
-
+import RecipeBP from "./RecipeCardV2";
 // import all images her(this is hardcoding the srcs)
 import Cake from "../assets/weddingC.png";
+import Choc from "../assets/chocCake.png";
+import Hertzog from "../assets/hertzoggies.png";
 
 const Posts = () => {
   return (
@@ -16,25 +19,38 @@ const Posts = () => {
       <PinkBg>
         <RecipeH1>Recipes</RecipeH1>
         <Postcontainer>
-          <RecipeCard background={Cake}>
-            <RecipeTitle>Title</RecipeTitle>
-          </RecipeCard>
-          <RecipeCard background={Cake}>
-            <RecipeTitle>Title</RecipeTitle>
-          </RecipeCard>
-          <RecipeCard background={Cake}>
-            <RecipeTitle>Title</RecipeTitle>
-          </RecipeCard>
-          <RecipeCard background={Cake}>
-            <RecipeTitle>Title</RecipeTitle>
-          </RecipeCard>
-          <RecipeCard background={Cake}>
-            <RecipeTitle>Title</RecipeTitle>
-          </RecipeCard>
+          <RecipeBP background={Cake} />
+          <RecipeBP background={Choc} />
+          <RecipeBP background={Hertzog} />
+          {/* <RecipeBP background={Cake} />
+          <RecipeBP background={Cake} /> */}
         </Postcontainer>
+        <CmoreCont>
+          <SeeMore>
+            Read more recipes
+            {/* <FaArrow /> */}
+          </SeeMore>
+        </CmoreCont>
       </PinkBg>
     </>
   );
 };
 
 export default Posts;
+// {
+//   /* <RecipeCard background={Cake}>
+// <RecipeTitle>Title</RecipeTitle>
+// </RecipeCard>
+// <RecipeCard background={Cake}>
+// <RecipeTitle>Title</RecipeTitle>
+// </RecipeCard>
+// <RecipeCard background={Cake}>
+// <RecipeTitle>Title</RecipeTitle>
+// </RecipeCard>
+// <RecipeCard background={Cake}>
+// <RecipeTitle>Title</RecipeTitle>
+// </RecipeCard>
+// <RecipeCard background={Cake}>
+// <RecipeTitle>Title</RecipeTitle>
+// </RecipeCard> */
+// }
