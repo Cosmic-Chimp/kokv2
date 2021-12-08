@@ -39,7 +39,7 @@ export const NavLink = styled(Link)`
   /* border-top: 2px solid black;
   border-bottom: 2px solid black; */
   padding: 0px 5px;
-  &:before {
+  &:after {
     content: "";
     background: #363737;
     margin: 20px;
