@@ -3,6 +3,7 @@ import React from "react";
 // import SideBar from "../components/SideBar/SideBar";
 import Banner from "../components/Banner/Banner";
 import CTA from "../components/CTA/CTA";
+
 const Home = () => {
   // const [isOpen, setIsOpen] = useState(false);
 
