@@ -17,7 +17,7 @@ const Navbar = ({ toggle }) => {
           <NavLink to="/recipes" activeStyle>
             Recipes
           </NavLink>
-          <NavLink className="exclude" to="/contact" activeStyle>
+          <NavLink to="/contact" activeStyle>
             Contact
           </NavLink>
         </NavMenu>

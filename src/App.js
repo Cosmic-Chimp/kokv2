@@ -28,10 +28,10 @@ function App() {
           <Route path="/about" exact component={AbtV2} />
           {/* <Banner />
           <CTA></CTA> */}
-          <br />
+          {/* <br /> */}
           {/* <AbtV2></AbtV2> */}
           <Route path="/recipes" exact component={Posts} />
-          {/* <Route path="/contact" exact component={AboutV2} /> */}
+          <Route path="/contact" exact component={Footer} />
 
           <Posts />
           <Footer />
