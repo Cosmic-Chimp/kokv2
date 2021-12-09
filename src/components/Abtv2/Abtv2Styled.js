@@ -2,7 +2,9 @@ import styled from "styled-components";
 import abtPic from "../assets/biopic.png";
 import { FaInstagramSquare, FaFacebookF } from "react-icons/fa";
 
-export const OuterDiv = styled.div`
+export const OuterDiv = styled.div.attrs({
+  id: `about`,
+})`
   display: flex;
   /* justify-content: center; */
   height: 50vh;

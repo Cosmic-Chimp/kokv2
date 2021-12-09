@@ -5,7 +5,9 @@ import styled from "styled-components";
 
 import { FaArrowRight } from "react-icons/fa";
 // container for posts//
-export const PinkBg = styled.div`
+export const PinkBg = styled.div.attrs({
+  id: `recipes`,
+})`
   width: 100%;
   height: 100%;
   background-color: #f5c3d7;

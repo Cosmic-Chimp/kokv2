@@ -5,7 +5,9 @@ import styled from "styled-components";
 import { FaInstagramSquare, FaFacebookF } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 
-export const BgContainer = styled.div`
+export const BgContainer = styled.div.attrs({
+  id: `footer`,
+})`
   width: auto;
   height: fit-content;
   background-color: #e87da3;

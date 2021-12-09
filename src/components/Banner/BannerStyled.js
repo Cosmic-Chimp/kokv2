@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import weddingImg from "../assets/weddingC.png";
-export const OuterDiv = styled.div`
+export const OuterDiv = styled.div.attrs({
+  id: `home`,
+})`
   display: flex;
   height: 50vh;
   width: auto;
