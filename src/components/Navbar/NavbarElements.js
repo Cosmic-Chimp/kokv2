@@ -19,7 +19,7 @@ export const Nav = styled.nav`
   position: -webkit-sticky;
   top: 0;
   background: #ffffff;
-  height: 5vh;
+  height: 3vh;
   display: flex;
   justify-content: flex-end;
   padding: 30px 5%;

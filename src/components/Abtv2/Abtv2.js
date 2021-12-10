@@ -12,16 +12,10 @@ import {
 const AbtV2 = () => {
   return (
     <>
-      {/* <h1>Heading 1</h1> */}
       <OuterDiv>
         <LeftTextDiv>
           <LeftWrapper>
             <h1>About Me</h1>
-            {/* <div className="contain">
-              <div className="items">Fb</div>
-              <div className="items">IG</div>
-              <div className="items">Twitter</div>
-            </div> */}
           </LeftWrapper>
         </LeftTextDiv>
         <RightImgDiv></RightImgDiv>

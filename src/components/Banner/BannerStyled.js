@@ -7,6 +7,8 @@ export const OuterDiv = styled.div.attrs({
   height: 50vh;
   width: auto;
   margin: 5rem;
+  /* margin-top: 0px !important;
+  padding-top: 5rem; */
   @media all and (max-width: 480px) {
     flex-direction: column;
   }

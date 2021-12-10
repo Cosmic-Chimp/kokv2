@@ -8,16 +8,16 @@ const Navbar = ({ toggle }) => {
         <Logo />
         <Bars onClick={toggle} />
         <NavMenu>
-          <NavLink to="home" spy={true} smooth={true}>
+          <NavLink to="home" spy={true} delay={300} smooth={true}>
             Home
           </NavLink>
-          <NavLink to="about" spy={true} smooth={true}>
+          <NavLink to="about" spy={true} delay={300} smooth={true}>
             About
           </NavLink>
-          <NavLink to="recipes" spy={true} smooth={true}>
+          <NavLink to="recipes" spy={true} delay={300} smooth={true}>
             Recipes
           </NavLink>
-          <NavLink to="footer" spy={true} smooth={true}>
+          <NavLink to="footer" spy={true} delay={300} smooth={true}>
             Contact
           </NavLink>
         </NavMenu>

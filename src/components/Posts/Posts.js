@@ -37,20 +37,3 @@ const Posts = () => {
 };
 
 export default Posts;
-// {
-//   /* <RecipeCard background={Cake}>
-// <RecipeTitle>Title</RecipeTitle>
-// </RecipeCard>
-// <RecipeCard background={Cake}>
-// <RecipeTitle>Title</RecipeTitle>
-// </RecipeCard>
-// <RecipeCard background={Cake}>
-// <RecipeTitle>Title</RecipeTitle>
-// </RecipeCard>
-// <RecipeCard background={Cake}>
-// <RecipeTitle>Title</RecipeTitle>
-// </RecipeCard>
-// <RecipeCard background={Cake}>
-// <RecipeTitle>Title</RecipeTitle>
-// </RecipeCard> */
-// }
